@@ -1,7 +1,7 @@
 CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.c \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/include/GLFW/glfw3.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\window.c \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\window.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/include/GLFW/glfw3.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \

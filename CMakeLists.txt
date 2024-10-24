@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
-project(OpenGLKickoff C)
+project(AtomVisualizer C)
 
 find_package(OpenGL REQUIRED)
 add_subdirectory(${PROJECT_SOURCE_DIR}/ext/glfw)
@@ -9,7 +9,7 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(${PROJECT_SOURCE_DIR}/ext/glad/include)
 
-add_executable(OpenGLKickoff main.c
+add_executable(AtomVisualizer main.c
         core/window.c
         core/window.h
         core/core.c
@@ -29,6 +29,6 @@ add_executable(OpenGLKickoff main.c
 file(REMOVE ${PROJECT_SOURCE_DIR}/local/)
 file(COPY ${PROJECT_SOURCE_DIR}/local/ DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/local/)
 
-target_link_libraries(OpenGLKickoff cglm)
-target_link_libraries(OpenGLKickoff glfw)
-target_link_libraries(OpenGLKickoff OpenGL::GL)
+target_link_libraries(AtomVisualizer cglm)
+target_link_libraries(AtomVisualizer glfw)
+target_link_libraries(AtomVisualizer OpenGL::GL)

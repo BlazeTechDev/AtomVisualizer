@@ -42,18 +42,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/micha/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/micha/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake"
   "C:/Users/micha/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.29/Templates/CPackConfig.cmake.in"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/CMakeLists.txt"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/CMakeLists.txt"
   "CMakeFiles/3.29.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeSystem.cmake"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/cglm/CMakeLists.txt"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/cglm/cglm.pc.in"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/CMake/cmake_uninstall.cmake.in"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3.pc.in"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/CMake/glfw3Config.cmake.in"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/CMakeLists.txt"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/docs/CMakeLists.txt"
-  "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/src/CMakeLists.txt"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/cglm/CMakeLists.txt"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/cglm/cglm.pc.in"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/CMake/cmake_uninstall.cmake.in"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/CMake/glfw3.pc.in"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/CMake/glfw3Config.cmake.in"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/CMakeLists.txt"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/docs/CMakeLists.txt"
+  "C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/src/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -80,7 +80,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/OpenGLKickoff.dir/DependInfo.cmake"
+  "CMakeFiles/AtomVisualizer.dir/DependInfo.cmake"
   "ext/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "ext/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

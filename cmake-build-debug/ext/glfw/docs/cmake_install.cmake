@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/docs
+# Install script for directory: C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

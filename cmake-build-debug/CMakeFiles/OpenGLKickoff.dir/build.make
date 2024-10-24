@@ -52,10 +52,10 @@ RM = C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff
+CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\AtomVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGLKickoff.dir/depend.make
@@ -70,138 +70,138 @@ include CMakeFiles/OpenGLKickoff.dir/flags.make
 
 CMakeFiles/OpenGLKickoff.dir/main.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/main.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/main.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/main.c
+CMakeFiles/OpenGLKickoff.dir/main.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/main.c
 CMakeFiles/OpenGLKickoff.dir/main.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OpenGLKickoff.dir/main.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/main.c.obj -MF CMakeFiles\OpenGLKickoff.dir\main.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\main.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OpenGLKickoff.dir/main.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/main.c.obj -MF CMakeFiles\OpenGLKickoff.dir\main.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\main.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\main.c
 
 CMakeFiles/OpenGLKickoff.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/main.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\main.c > CMakeFiles\OpenGLKickoff.dir\main.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\main.c > CMakeFiles\OpenGLKickoff.dir\main.c.i
 
 CMakeFiles/OpenGLKickoff.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/main.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\main.c -o CMakeFiles\OpenGLKickoff.dir\main.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\main.c -o CMakeFiles\OpenGLKickoff.dir\main.c.s
 
 CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/core/window.c
+CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/core/window.c
 CMakeFiles/OpenGLKickoff.dir/core/window.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLKickoff.dir/core/window.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/window.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\window.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\window.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLKickoff.dir/core/window.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/window.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\window.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\window.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\core\window.c
 
 CMakeFiles/OpenGLKickoff.dir/core/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/core/window.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.c > CMakeFiles\OpenGLKickoff.dir\core\window.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\core\window.c > CMakeFiles\OpenGLKickoff.dir\core\window.c.i
 
 CMakeFiles/OpenGLKickoff.dir/core/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/core/window.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.c -o CMakeFiles\OpenGLKickoff.dir\core\window.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\core\window.c -o CMakeFiles\OpenGLKickoff.dir\core\window.c.s
 
 CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/core/core.c
+CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/core/core.c
 CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenGLKickoff.dir/core/core.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/core.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\core.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\core.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\core\core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OpenGLKickoff.dir/core/core.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/core.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\core.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\core.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\core\core.c
 
 CMakeFiles/OpenGLKickoff.dir/core/core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/core/core.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\core\core.c > CMakeFiles\OpenGLKickoff.dir\core\core.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\core\core.c > CMakeFiles\OpenGLKickoff.dir\core\core.c.i
 
 CMakeFiles/OpenGLKickoff.dir/core/core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/core/core.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\core\core.c -o CMakeFiles\OpenGLKickoff.dir\core\core.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\core\core.c -o CMakeFiles\OpenGLKickoff.dir\core\core.c.s
 
 CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/core/input.c
+CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/core/input.c
 CMakeFiles/OpenGLKickoff.dir/core/input.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OpenGLKickoff.dir/core/input.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/input.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\input.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\input.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\core\input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OpenGLKickoff.dir/core/input.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/input.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\input.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\input.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\core\input.c
 
 CMakeFiles/OpenGLKickoff.dir/core/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/core/input.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\core\input.c > CMakeFiles\OpenGLKickoff.dir\core\input.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\core\input.c > CMakeFiles\OpenGLKickoff.dir\core\input.c.i
 
 CMakeFiles/OpenGLKickoff.dir/core/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/core/input.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\core\input.c -o CMakeFiles\OpenGLKickoff.dir\core\input.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\core\input.c -o CMakeFiles\OpenGLKickoff.dir\core\input.c.s
 
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glad/src/glad.c
+CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/ext/glad/src/glad.c
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj -MF CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glad\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj -MF CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\ext\glad\src\glad.c
 
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glad\src\glad.c > CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\ext\glad\src\glad.c > CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.i
 
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glad\src\glad.c -o CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\ext\glad\src\glad.c -o CMakeFiles\OpenGLKickoff.dir\ext\glad\src\glad.c.s
 
 CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/graphics/shader.c
+CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/graphics/shader.c
 CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\shader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\graphics\shader.c
 
 CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\shader.c > CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\graphics\shader.c > CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.i
 
 CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\shader.c -o CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\graphics\shader.c -o CMakeFiles\OpenGLKickoff.dir\graphics\shader.c.s
 
 CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/graphics/buffer.c
+CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/graphics/buffer.c
 CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\graphics\buffer.c
 
 CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\buffer.c > CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\graphics\buffer.c > CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.i
 
 CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\buffer.c -o CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\graphics\buffer.c -o CMakeFiles\OpenGLKickoff.dir\graphics\buffer.c.s
 
 CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/core/io.c
+CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/core/io.c
 CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OpenGLKickoff.dir/core/io.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/io.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\io.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\io.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\core\io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OpenGLKickoff.dir/core/io.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/core/io.c.obj -MF CMakeFiles\OpenGLKickoff.dir\core\io.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\core\io.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\core\io.c
 
 CMakeFiles/OpenGLKickoff.dir/core/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/core/io.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\core\io.c > CMakeFiles\OpenGLKickoff.dir\core\io.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\core\io.c > CMakeFiles\OpenGLKickoff.dir\core\io.c.i
 
 CMakeFiles/OpenGLKickoff.dir/core/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/core/io.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\core\io.c -o CMakeFiles\OpenGLKickoff.dir\core\io.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\core\io.c -o CMakeFiles\OpenGLKickoff.dir\core\io.c.s
 
 CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: CMakeFiles/OpenGLKickoff.dir/flags.make
 CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: CMakeFiles/OpenGLKickoff.dir/includes_C.rsp
-CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: C:/Users/micha/CLionProjects/OpenGLKickoff/graphics/utils.c
+CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: C:/Users/micha/CLionProjects/AtomVisualizer/graphics/utils.c
 CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj: CMakeFiles/OpenGLKickoff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.obj -c C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj"
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj -MF CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.obj.d -o CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.obj -c C:\Users\micha\CLionProjects\AtomVisualizer\graphics\utils.c
 
 CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.i"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\utils.c > CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.i
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\micha\CLionProjects\AtomVisualizer\graphics\utils.c > CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.i
 
 CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.s"
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\OpenGLKickoff\graphics\utils.c -o CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.s
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\micha\CLionProjects\AtomVisualizer\graphics\utils.c -o CMakeFiles\OpenGLKickoff.dir\graphics\utils.c.s
 
 # Object files for target OpenGLKickoff
 OpenGLKickoff_OBJECTS = \
@@ -233,7 +233,7 @@ OpenGLKickoff.exe: ext/glfw/src/libglfw3.a
 OpenGLKickoff.exe: CMakeFiles/OpenGLKickoff.dir/linkLibs.rsp
 OpenGLKickoff.exe: CMakeFiles/OpenGLKickoff.dir/objects1.rsp
 OpenGLKickoff.exe: CMakeFiles/OpenGLKickoff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable OpenGLKickoff.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable OpenGLKickoff.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGLKickoff.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -245,6 +245,6 @@ CMakeFiles/OpenGLKickoff.dir/clean:
 .PHONY : CMakeFiles/OpenGLKickoff.dir/clean
 
 CMakeFiles/OpenGLKickoff.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\OpenGLKickoff C:\Users\micha\CLionProjects\OpenGLKickoff C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles\OpenGLKickoff.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\AtomVisualizer C:\Users\micha\CLionProjects\AtomVisualizer C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles\OpenGLKickoff.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/OpenGLKickoff.dir/depend
 

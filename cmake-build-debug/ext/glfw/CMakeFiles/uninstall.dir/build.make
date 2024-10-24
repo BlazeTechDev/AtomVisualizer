@@ -52,10 +52,10 @@ RM = C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff
+CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\AtomVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include ext/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include ext/glfw/CMakeFiles/uninstall.dir/progress.make
 
 ext/glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/micha/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/glfw/cmake_uninstall.cmake
+	cd /d C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw && C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/micha/CLionProjects/AtomVisualizer/cmake-build-debug/ext/glfw/cmake_uninstall.cmake
 
 uninstall: ext/glfw/CMakeFiles/uninstall
 uninstall: ext/glfw/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ ext/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : ext/glfw/CMakeFiles/uninstall.dir/build
 
 ext/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : ext/glfw/CMakeFiles/uninstall.dir/clean
 
 ext/glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\OpenGLKickoff C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\AtomVisualizer C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ext/glfw/CMakeFiles/uninstall.dir/depend
 

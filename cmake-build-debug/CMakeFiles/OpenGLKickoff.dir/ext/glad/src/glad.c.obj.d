@@ -1,5 +1,5 @@
 CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glad\src\glad.c \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glad\src\glad.c \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -23,8 +23,8 @@ CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj: \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glad/include/glad/glad.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glad/include/KHR/khrplatform.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glad/include/glad/glad.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glad/include/KHR/khrplatform.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \

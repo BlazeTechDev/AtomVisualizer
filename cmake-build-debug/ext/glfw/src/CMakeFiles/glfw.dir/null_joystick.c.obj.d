@@ -1,7 +1,7 @@
 ext/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\null_joystick.c \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\internal.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/include/GLFW/glfw3.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\null_joystick.c \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\internal.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/include/GLFW/glfw3.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -13,9 +13,9 @@ ext/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\platform.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\null_platform.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\win32_platform.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\platform.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\null_platform.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\win32_platform.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/windows.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -236,8 +236,8 @@ ext/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/xinput.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/dbt.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\null_joystick.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\win32_joystick.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\win32_thread.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src\win32_time.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/include/GLFW/glfw3native.h
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\null_joystick.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\win32_joystick.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\win32_thread.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src\win32_time.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/include/GLFW/glfw3native.h

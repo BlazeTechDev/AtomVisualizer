@@ -1,5 +1,5 @@
 CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\io.c \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\io.c \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -11,7 +11,7 @@ CMakeFiles/OpenGLKickoff.dir/core/io.c.obj: \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\io.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\io.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \

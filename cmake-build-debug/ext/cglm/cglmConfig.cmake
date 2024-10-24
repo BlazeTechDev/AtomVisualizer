@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(cglm::cglm SHARED IMPORTED)
 
 set_target_properties(cglm::cglm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/micha/CLionProjects/OpenGLKickoff/ext/cglm/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/micha/CLionProjects/AtomVisualizer/ext/cglm/include"
 )
 
 # Import target "cglm::cglm" for configuration "Debug"
 set_property(TARGET cglm::cglm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(cglm::cglm PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/Users/micha/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/cglm/libcglm.dll.a"
-  IMPORTED_LOCATION_DEBUG "C:/Users/micha/CLionProjects/OpenGLKickoff/cmake-build-debug/ext/cglm/libcglm-0.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/Users/micha/CLionProjects/AtomVisualizer/cmake-build-debug/ext/cglm/libcglm.dll.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/micha/CLionProjects/AtomVisualizer/cmake-build-debug/ext/cglm/libcglm-0.dll"
   )
 
 # This file does not depend on other imported targets which have

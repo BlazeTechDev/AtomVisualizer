@@ -52,10 +52,10 @@ RM = C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff
+CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\AtomVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug
 
 # Utility rule file for update_mappings.
 
@@ -66,8 +66,8 @@ include ext/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include ext/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 ext/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /d C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /d C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw\src && C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: ext/glfw/src/CMakeFiles/update_mappings
 update_mappings: ext/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -78,10 +78,10 @@ ext/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : ext/glfw/src/CMakeFiles/update_mappings.dir/build
 
 ext/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /d C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
+	cd /d C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
 .PHONY : ext/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 ext/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\OpenGLKickoff C:\Users\micha\CLionProjects\OpenGLKickoff\ext\glfw\src C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\ext\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\micha\CLionProjects\AtomVisualizer C:\Users\micha\CLionProjects\AtomVisualizer\ext\glfw\src C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw\src C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\ext\glfw\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ext/glfw/src/CMakeFiles/update_mappings.dir/depend
 

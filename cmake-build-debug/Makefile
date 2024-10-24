@@ -56,10 +56,10 @@ RM = C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff
+CMAKE_SOURCE_DIR = C:\Users\micha\CLionProjects\AtomVisualizer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/micha/CLionProjects/OpenGLKickoff/cmake-build-debug/CPackSourceConfig.cmake
+	C:\Users\micha\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/micha/CLionProjects/AtomVisualizer/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\micha\CLionProjects\OpenGLKickoff\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\micha\CLionProjects\AtomVisualizer\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,17 +181,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenGLKickoff
+# Target rules for targets named AtomVisualizer
 
 # Build rule for target.
-OpenGLKickoff: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 OpenGLKickoff
-.PHONY : OpenGLKickoff
+AtomVisualizer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AtomVisualizer
+.PHONY : AtomVisualizer
 
 # fast build rule for target.
-OpenGLKickoff/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/build
-.PHONY : OpenGLKickoff/fast
+AtomVisualizer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/build
+.PHONY : AtomVisualizer/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -250,7 +250,7 @@ core/core.obj: core/core.c.obj
 
 # target to build an object file
 core/core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/core.c.obj
 .PHONY : core/core.c.obj
 
 core/core.i: core/core.c.i
@@ -258,7 +258,7 @@ core/core.i: core/core.c.i
 
 # target to preprocess a source file
 core/core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/core.c.i
 .PHONY : core/core.c.i
 
 core/core.s: core/core.c.s
@@ -266,7 +266,7 @@ core/core.s: core/core.c.s
 
 # target to generate assembly for a file
 core/core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/core.c.s
 .PHONY : core/core.c.s
 
 core/input.obj: core/input.c.obj
@@ -274,7 +274,7 @@ core/input.obj: core/input.c.obj
 
 # target to build an object file
 core/input.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/input.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/input.c.obj
 .PHONY : core/input.c.obj
 
 core/input.i: core/input.c.i
@@ -282,7 +282,7 @@ core/input.i: core/input.c.i
 
 # target to preprocess a source file
 core/input.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/input.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/input.c.i
 .PHONY : core/input.c.i
 
 core/input.s: core/input.c.s
@@ -290,7 +290,7 @@ core/input.s: core/input.c.s
 
 # target to generate assembly for a file
 core/input.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/input.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/input.c.s
 .PHONY : core/input.c.s
 
 core/io.obj: core/io.c.obj
@@ -298,7 +298,7 @@ core/io.obj: core/io.c.obj
 
 # target to build an object file
 core/io.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/io.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/io.c.obj
 .PHONY : core/io.c.obj
 
 core/io.i: core/io.c.i
@@ -306,7 +306,7 @@ core/io.i: core/io.c.i
 
 # target to preprocess a source file
 core/io.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/io.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/io.c.i
 .PHONY : core/io.c.i
 
 core/io.s: core/io.c.s
@@ -314,7 +314,7 @@ core/io.s: core/io.c.s
 
 # target to generate assembly for a file
 core/io.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/io.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/io.c.s
 .PHONY : core/io.c.s
 
 core/window.obj: core/window.c.obj
@@ -322,7 +322,7 @@ core/window.obj: core/window.c.obj
 
 # target to build an object file
 core/window.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/window.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/window.c.obj
 .PHONY : core/window.c.obj
 
 core/window.i: core/window.c.i
@@ -330,7 +330,7 @@ core/window.i: core/window.c.i
 
 # target to preprocess a source file
 core/window.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/window.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/window.c.i
 .PHONY : core/window.c.i
 
 core/window.s: core/window.c.s
@@ -338,7 +338,7 @@ core/window.s: core/window.c.s
 
 # target to generate assembly for a file
 core/window.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/core/window.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/core/window.c.s
 .PHONY : core/window.c.s
 
 ext/glad/src/glad.obj: ext/glad/src/glad.c.obj
@@ -346,7 +346,7 @@ ext/glad/src/glad.obj: ext/glad/src/glad.c.obj
 
 # target to build an object file
 ext/glad/src/glad.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/ext/glad/src/glad.c.obj
 .PHONY : ext/glad/src/glad.c.obj
 
 ext/glad/src/glad.i: ext/glad/src/glad.c.i
@@ -354,7 +354,7 @@ ext/glad/src/glad.i: ext/glad/src/glad.c.i
 
 # target to preprocess a source file
 ext/glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/ext/glad/src/glad.c.i
 .PHONY : ext/glad/src/glad.c.i
 
 ext/glad/src/glad.s: ext/glad/src/glad.c.s
@@ -362,7 +362,7 @@ ext/glad/src/glad.s: ext/glad/src/glad.c.s
 
 # target to generate assembly for a file
 ext/glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/ext/glad/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/ext/glad/src/glad.c.s
 .PHONY : ext/glad/src/glad.c.s
 
 graphics/buffer.obj: graphics/buffer.c.obj
@@ -370,7 +370,7 @@ graphics/buffer.obj: graphics/buffer.c.obj
 
 # target to build an object file
 graphics/buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/buffer.c.obj
 .PHONY : graphics/buffer.c.obj
 
 graphics/buffer.i: graphics/buffer.c.i
@@ -378,7 +378,7 @@ graphics/buffer.i: graphics/buffer.c.i
 
 # target to preprocess a source file
 graphics/buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/buffer.c.i
 .PHONY : graphics/buffer.c.i
 
 graphics/buffer.s: graphics/buffer.c.s
@@ -386,7 +386,7 @@ graphics/buffer.s: graphics/buffer.c.s
 
 # target to generate assembly for a file
 graphics/buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/buffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/buffer.c.s
 .PHONY : graphics/buffer.c.s
 
 graphics/shader.obj: graphics/shader.c.obj
@@ -394,7 +394,7 @@ graphics/shader.obj: graphics/shader.c.obj
 
 # target to build an object file
 graphics/shader.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/shader.c.obj
 .PHONY : graphics/shader.c.obj
 
 graphics/shader.i: graphics/shader.c.i
@@ -402,7 +402,7 @@ graphics/shader.i: graphics/shader.c.i
 
 # target to preprocess a source file
 graphics/shader.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/shader.c.i
 .PHONY : graphics/shader.c.i
 
 graphics/shader.s: graphics/shader.c.s
@@ -410,7 +410,7 @@ graphics/shader.s: graphics/shader.c.s
 
 # target to generate assembly for a file
 graphics/shader.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/shader.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/shader.c.s
 .PHONY : graphics/shader.c.s
 
 graphics/utils.obj: graphics/utils.c.obj
@@ -418,7 +418,7 @@ graphics/utils.obj: graphics/utils.c.obj
 
 # target to build an object file
 graphics/utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/utils.c.obj
 .PHONY : graphics/utils.c.obj
 
 graphics/utils.i: graphics/utils.c.i
@@ -426,7 +426,7 @@ graphics/utils.i: graphics/utils.c.i
 
 # target to preprocess a source file
 graphics/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/utils.c.i
 .PHONY : graphics/utils.c.i
 
 graphics/utils.s: graphics/utils.c.s
@@ -434,7 +434,7 @@ graphics/utils.s: graphics/utils.c.s
 
 # target to generate assembly for a file
 graphics/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/graphics/utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/graphics/utils.c.s
 .PHONY : graphics/utils.c.s
 
 main.obj: main.c.obj
@@ -442,7 +442,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -450,7 +450,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -458,7 +458,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGLKickoff.dir\build.make CMakeFiles/OpenGLKickoff.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AtomVisualizer.dir\build.make CMakeFiles/AtomVisualizer.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -477,7 +477,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... update_mappings
-	@echo ... OpenGLKickoff
+	@echo ... AtomVisualizer
 	@echo ... cglm
 	@echo ... glfw
 	@echo ... core/core.obj

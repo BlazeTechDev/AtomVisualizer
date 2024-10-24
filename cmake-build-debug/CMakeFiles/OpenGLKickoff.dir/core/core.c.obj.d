@@ -1,8 +1,8 @@
 CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\core.c \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\core.h \
- C:\Users\micha\CLionProjects\OpenGLKickoff\core\window.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glfw/include/GLFW/glfw3.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\core.c \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\core.h \
+ C:\Users\micha\CLionProjects\AtomVisualizer\core\window.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glfw/include/GLFW/glfw3.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
@@ -28,5 +28,5 @@ CMakeFiles/OpenGLKickoff.dir/core/core.c.obj: \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Users/micha/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/errno.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glad/include/glad/glad.h \
- C:/Users/micha/CLionProjects/OpenGLKickoff/ext/glad/include/KHR/khrplatform.h
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glad/include/glad/glad.h \
+ C:/Users/micha/CLionProjects/AtomVisualizer/ext/glad/include/KHR/khrplatform.h
